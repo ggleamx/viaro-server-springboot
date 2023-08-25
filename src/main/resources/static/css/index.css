@@ -1,0 +1,46 @@
+.background-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/img/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    border: 1px solid black;
+    background-color: transparent;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 100%;
+    width: 30%;
+    color: white;
+    display: flex;
+    outline: 1px solid black;
+}
+
+.content-container {
+    flex-grow: 1;
+    height: 100%;
+    overflow-y: auto;
+}
+
+p {
+    font-size: 30px;
+}
+
+.error {
+    color: red;
+}
