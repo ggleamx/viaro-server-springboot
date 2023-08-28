@@ -43,7 +43,7 @@ Nota: Si prefieres usar un archivo para crear la base de datos, puedes colocar e
 
 
 ```bash 
-java -jar target/nombre-del-artifacto.jar
+java -jar target/portfolio-0.0.1-SNAPSHOT.jar
 ```
 
 Nota: Reemplaza nombre-del-artifacto.jar con el nombre actual del JAR generado en la carpeta target.
