@@ -1,0 +1,36 @@
+Some guidelines for the upcoming technical assessment:
+
+You are free to choose the programming language(s) you deem appropriate.
+The application can be of the following types:
+
+Web
+Mobile
+
+R:
+Web >> vue 3.
+
+
+You can choose the frameworks, ORMs, and database management systems you consider. We are interested in a good balance between functionality and visual interface, prioritizing that everything requested works.
+The code must be your own.
+
+R:
+Spring boot for the server
+Postgres
+Hibernate for the ORM
+Vue 3 for the client
+
+You are expected to use programming logic and understand each step you've taken, not just copy and paste code without knowing what it does or how it does it.
+
+Description:
+
+A solution for school data management is required, meaning that CRUD operations (Create, Read, Update, Delete) are needed for the following entities:
+
+Student: Id, First Name, Last Name, Gender, Date of Birth
+Teacher: Id, First Name, Last Name, Gender
+Grade: Id, Name, TeacherId
+StudentGrade: Id, StudentId, GradeId, Section (group).
+The system should provide CRUD operations for each entity.
+
+Once you complete the CRUD, package it into a .zip file and upload it to this platform. Also, keep a copy for yourself. You should also answer the questions in this test.
+
+Note: Some terms like CRUD, ORM, and others are typically not translated as they are standard terms in the technology industry.
